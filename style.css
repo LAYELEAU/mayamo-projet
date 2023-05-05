@@ -1,0 +1,354 @@
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Baloo Paaji 2';
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+ a{
+    text-decoration: none;
+}
+.menu
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-right: 80px;
+    font-family:'Baloo Paaji 2' ;
+    
+    
+}
+span
+{
+    padding-left: 100px;
+    padding-top: 40px;
+    font-size: 30px;
+    font-family: 'Baloo Paaji 2';
+    margin-left: 100px;
+    
+}
+.home-page
+{
+    background-image: url(imgs/header.jpg);
+    background-size: cover;
+margin: 0%;
+}
+.home-page p
+{
+    margin-left:  300px;
+    font-family: 'open sans';
+    font-size: 30px;
+}
+h1
+{
+    padding-top: 100px;
+    margin-left: 300px;
+    font-family: 'Baloo Paaji 2';
+    font-size: 90px;
+    font-weight: 200px;
+}
+.bouton1
+{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #695aa6;
+    background-color: #695aa6;
+    color: white;
+    margin-bottom: 100px;
+    margin-left: 300px;
+}
+.about
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   font-family: 'open sans';
+    padding: 40px;
+    background-color: #fff;
+}
+h2
+{
+    color: #695aa6;
+    font-family: 'baloo paaji 2';
+}
+.bouton2
+{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #695aa6;
+    background-color: #fff;
+    color:#695aa6;
+    margin-bottom: 100px;
+    margin-top: 40px;
+
+}
+.service
+{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.service p
+{
+    text-align: center;
+    font-family: 'open sans';
+}
+.article1
+{
+    border: 1px solid #695aa6;
+    padding:20px;
+}
+.service div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+.logo
+{
+    width: 40px;
+    margin-left: 40%;
+}
+h3
+{
+    font-family: 'baloo paaji 2';
+    text-align: center;
+    color: #695aa6;
+    margin-bottom: 60px;
+}
+h4
+{
+    font-family: 'baloo paaji 2';
+    text-align: center;
+    color: #695aa6
+    
+}
+.Portfolio p
+{
+    font-family: 'open sans';
+    text-align: center;
+}
+.Portfolio
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.Portfolio div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.folio
+{
+    width: 23%;
+}
+.folio:hover
+{
+    opacity: 50%;
+}
+.logo1
+{
+    width: 80px;
+    margin-left: 40%;
+}
+.pricing div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pricing P
+{
+    font-family: 'open sans';
+    text-align: center;
+}
+.butons
+{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #695aa6;
+    background-color: #695aa6;
+    color: white;
+    margin-top: 20px;
+    margin-left: 30%;
+
+}
+strong
+{
+    font-family: 'baloo paaji 2';
+    font-size: 30px;
+
+}
+.article2
+{
+    border: #695aa6 1px solid;
+    padding: 50px;
+}
+.pricing
+{margin-bottom: 100px;}
+.hire
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #695aa6;
+    padding: 20px;
+    font-family: 'baloo paaji 2';
+    color: #fff;
+}
+.bouton3
+{
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 2px solid #696870;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.log
+{
+    width: 90px;
+    height: 90px;
+border-radius: 50%;
+margin-top: 60px; 
+margin-left: 20px;
+z-index: 100;
+
+}
+.article3 p
+{
+    border: #695aa6 1px solid;
+    padding: 30px;
+    padding-left: 50px;
+    font-family: 'open sans';
+    margin-left: -70px;
+
+
+}
+.testmonial div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+
+}
+.testmonial p
+{
+    font-family: 'open sans';
+    text-align: center;
+}
+.testmonial
+{
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+}
+.blog .blog1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0%;
+}
+.blog p
+{
+    font-family: 'open sans';
+    text-align: center;
+}
+.ima
+{
+    width: 26%;
+
+}
+.ablog , .ablog2
+{
+    border: #695aa6 1px solid;
+    border-left: none;
+    padding: 30px;
+    font-family: 'open sans';
+}
+.blog .blog2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.blog2
+{
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+}
+.ima2
+{
+    width: 26%;
+    margin-left: 15px;
+
+}
+.ablog2
+{
+    margin-right: 20px;
+    padding-right: 10px;
+}
+.mycontact .cont 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.ctc
+{
+    width: 370px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.01);
+    border: #695aa6 1px solid;
+    border-radius: 6px;
+    position: relative;
+    bottom: -5px;
+}
+.ctca
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.ctcc
+{
+    background-color: rgba(0, 0, 0, 0.01);
+    border: #695aa6 1px solid;
+    border-radius: 6px;
+}
+.mycontact p
+{
+    font-family: 'open sans';
+    text-align: center;
+}
+.boutonc
+{
+    width: 120px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 700px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    color: #695aa6;
+    border: #695aa6 1px solid;
+    border-radius: 6px;
+}
+.boutonc:hover
+{
+    background-color: #695aa6;
+    color: #fff;
+}
